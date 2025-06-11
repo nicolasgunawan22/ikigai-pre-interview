@@ -1,12 +1,50 @@
-# React + Vite
+# Ikigai Pre-Interview Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📦 Installation
 
-Currently, two official plugins are available:
+1. Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/nicolasgunawan22/ikigai-pre-interview.git
+cd ikigai-pre-interview
+```
 
-## Expanding the ESLint configuration
+2. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 🏗️ Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code quality
+
+## 📁 Project Structure
+
+```
+src/
+├── App.jsx          # Main application component
+├── Waves.jsx        # Animated wave SVG component
+├── main.jsx         # Application entry point
+└── index.css        # Global styles and Tailwind imports
+
+public/
+└── vite.svg         # Vite logo
+
+config files:
+├── vite.config.js       # Vite configuration
+├── tailwind.config.js   # Tailwind CSS configuration
+├── postcss.config.js    # PostCSS configuration
+└── eslint.config.js     # ESLint configuration
+```
